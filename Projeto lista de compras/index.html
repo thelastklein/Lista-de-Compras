@@ -4,45 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de compras</title>
-
-<link rel="stylesheet" href="style.css">
+    <title>Lista de Compras</title>
 </head>
+<body> 
 
-<body>
-    <section class="section-compras">
-        <form class="form-compras">
-            <p class="alerta"></p>
-            <h3>Lista de Compras</h3>
-            <div class="div-compras">
-                <input type="text" id="compras" placeholder="O que você precisa comprar?">
-                <button type="submit" class="enviar" >Enviar</button>
-            </div>
-        </form>
+    <div class="container">
+        <h3>Lista de compras</h3>
+        <input type="text" id="compras" placeholder="O que você precisa comprar? ">
+        <button type="submit" class="adicionar" onclick="adicionar()" >Adicionar</button>
 
-        <div class="conteiner">
-            <div class="lista">
-                <article class="item">
-                    <p class="titulo">item</p>
-                    <div class="containerbotao">
-                        <button type="button" class="editar"></button>
-                        <button type="button" class="deletar"></button>
-                    </div>
-
-                </article>
-
-            </div>
-            <button type="button" class="limpar">Limpar itens</button>
-        </div>
-
-
-
-
-
-    </section>
-    
-
-
+    </div>
+    <div id="lista">
+        <p id=teste></p>
+    </div>
 
 
 
